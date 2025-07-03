@@ -15,7 +15,6 @@ Projeto acadêmico da disciplina de **Compiladores** (UFG - Instituto de Inform�
 - [Dependências](#dependências)
 - [Informações Técnicas](#informações-técnicas)
 - [Referências](#referências)
-- [Aviso sobre Plágio](#aviso-sobre-plágio)
 
 ---
 
