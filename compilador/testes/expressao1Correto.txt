@@ -1,0 +1,17 @@
+int abs(int x) {
+    se (x < 0) entao retorne -x; senao retorne x;
+}
+int inv(int x){
+    retorne -x;
+}
+int y;
+programa{
+    y = -20;
+    y = abs(y);
+    y = y + 3;
+    escreva y;
+    y = inv(y);
+    novalinha;
+    escreva y;
+    novalinha;
+}

@@ -1,0 +1,5 @@
+/* erro_tipo_atribuicao.txt: Erro semântico. */
+programa {
+    car c;
+    c = 10; /* ERRO: não pode atribuir int a car */
+}

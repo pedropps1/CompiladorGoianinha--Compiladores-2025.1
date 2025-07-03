@@ -1,0 +1,25 @@
+/* teste_operadores.txt: Testa todos os operadores. */
+programa {
+    int a; int b; int c;
+
+    a = 10 + 5 * 2 / 4 - 1; /* a = 10 + 2 - 1 = 11 */
+    b = 15;
+
+    escreva "a = "; escreva a; novalinha;
+
+    /* Testes relacionais */
+    se (a < b) entao escreva "a < b eh verdadeiro"; senao escreva "a < b eh falso";
+    novalinha;
+    se (a > b) entao escreva "a > b eh verdadeiro"; senao escreva "a > b eh falso";
+    novalinha;
+    se (a == 11) entao escreva "a == 11 eh verdadeiro"; senao escreva "a == 11 eh falso";
+    novalinha;
+
+    /* Testes lógicos */
+    c = 0; /* falso */
+    se (!c e a > 10) entao escreva "teste logico 1 falhou"; senao escreva "teste logico 1 passou";
+    novalinha;
+
+    se (c ou a == 11) entao escreva "teste logico 2 passou"; senao escreva "teste logico 2 falhou";
+    novalinha;
+}

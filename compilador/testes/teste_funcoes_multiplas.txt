@@ -1,0 +1,21 @@
+/* teste_funcoes_multiplas.txt: Testa múltiplas funções. */
+
+int soma(int a, int b) {
+    retorne a + b;
+}
+
+int mult(int x, int y) {
+    retorne x * y;
+}
+
+programa {
+    int res1;
+    int res2;
+
+    res1 = soma(10, 20);
+    res2 = mult(res1, 2);
+
+    escreva "Resultado final: ";
+    escreva res2; /* Deve ser 60 */
+    novalinha;
+}

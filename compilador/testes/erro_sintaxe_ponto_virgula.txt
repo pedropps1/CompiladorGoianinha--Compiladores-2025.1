@@ -1,0 +1,5 @@
+/* erro_sintaxe_ponto_virgula.txt: Erro sintático. */
+programa {
+    int a
+    a = 5;
+}

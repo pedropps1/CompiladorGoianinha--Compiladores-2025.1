@@ -1,0 +1,9 @@
+/* erro_parametros_qtd.txt: Erro semântico. */
+int func(int a) {
+    retorne a;
+}
+
+programa {
+    int x;
+    x = func(5, 10); /* ERRO: número errado de parâmetros */
+}

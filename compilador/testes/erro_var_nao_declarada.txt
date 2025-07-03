@@ -1,0 +1,5 @@
+/* erro_var_nao_declarada.txt: Erro semântico. */
+programa {
+    int a;
+    a = b + 5; /* ERRO: 'b' não foi declarado */
+}

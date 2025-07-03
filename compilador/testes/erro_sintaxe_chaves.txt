@@ -1,0 +1,5 @@
+/* erro_sintaxe_chaves.txt: Erro sintático. */
+programa {
+    int a;
+    a = 5;
+ /* ERRO: falta a chave de fechamento */

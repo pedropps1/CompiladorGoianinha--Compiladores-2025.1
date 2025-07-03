@@ -1,0 +1,22 @@
+/* teste_estruturas_controle.txt: Testa aninhamento de se/senao e enquanto. */
+programa {
+    int i;
+    int j;
+
+    i = 0;
+    j = 3;
+
+    enquanto (i < 5) execute {
+        escreva "i = "; escreva i; novalinha;
+        se (i == j) entao {
+            escreva " achei o j!";
+            novalinha;
+        } senao {
+            se (i > j) entao {
+                escreva " passei do j!";
+                novalinha;
+            }
+        }
+        i = i + 1;
+    }
+}

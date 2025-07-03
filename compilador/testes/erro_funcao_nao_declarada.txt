@@ -1,0 +1,5 @@
+/* erro_funcao_nao_declarada.txt: Erro semântico. */
+programa {
+    int x;
+    x = minha_funcao_inexistente(); /* ERRO: função não declarada */
+}
